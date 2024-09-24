@@ -77,9 +77,38 @@ Current Price: <?php echo $currPrice; ?><br>
 Absolute change in price: <?php echo $diffPrice; ?><br>
 Percent change in price: <?php echo $diffPricePercent; ?><br>
 
+<?php 
+    //you can do arthimenitc operations simultaneously with an assignment
+    $a = 5;
+    $a = $a + 10;
+    //same as the one above
+    $a = 5;
+    $a += 10;
+?>
+<!-- Stringing things along -->
 
-
-
-
-
-
+<?php 
+//set variables
+$a = 'the';
+$b = 'games';
+$c = 'begin';
+$d ='now';
+// Combine them using the concatination operator (which is .)
+// This returns 'the games begin now<br>'
+$statement = $a.' '.$b.' '.$c.' '.$d.'<br>';// This returns 'the games begin now<br>'
+echo $statement;
+// This outputs 'the games begin now!'
+$command = $c.' '.$a.' '.$b.' '.$d.'!';
+echo $command;
+?>
+<br>
+<?php
+//this works too
+// Define string
+$str = 'the';
+// add and assign
+$str .= 'n';
+// $str now contains "then"
+echo $str;
+?>
+<!-- My first lesson is done :D -->
