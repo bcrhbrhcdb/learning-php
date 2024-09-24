@@ -1,17 +1,18 @@
 {
   "name": "learning-php",
   "version": "1.0.0",
-  "description": "learning php",
-  "main": "index.js",
+  "description": "Learning PHP project",
   "scripts": {
-    "test": "e"
+    "start": "php -S localhost:8000",
+    "test": "phpunit"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bcrhbrhcdb/learning-php.git"
   },
   "keywords": [
-    "no"
+    "php",
+    "learning"
   ],
   "author": "nub",
   "license": "ISC",
