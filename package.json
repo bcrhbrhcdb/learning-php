@@ -1,0 +1,22 @@
+{
+  "name": "learning-php",
+  "version": "1.0.0",
+  "description": "learning php",
+  "main": "index.js",
+  "scripts": {
+    "test": "e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcrhbrhcdb/learning-php.git"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "nub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcrhbrhcdb/learning-php/issues"
+  },
+  "homepage": "https://github.com/bcrhbrhcdb/learning-php#readme"
+}
