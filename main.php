@@ -53,4 +53,33 @@
     echo $sentence;
     //single quotes will print the text itself.
 ?>
+<br>
+<?php
+//set quanitity
+
+$quantity = 1000;
+
+//set orginial and current unit price
+
+$origPrice = 100;
+$currPrice = 25;
+
+//calculate the difference in price
+
+$diffPrice = $currPrice - $origPrice;
+//calculate percentage change in price
+$diffPricePercent = (($currPrice - $origPrice)*100)/$origPrice
+?>
+<!-- HTML -->
+Quantity: <?php echo $quantity; ?><br>
+Cost Price: <?php echo $origPrice; ?><br>
+Current Price: <?php echo $currPrice; ?><br>
+Absolute change in price: <?php echo $diffPrice; ?><br>
+Percent change in price: <?php echo $diffPricePercent; ?><br>
+
+
+
+
+
+
 
